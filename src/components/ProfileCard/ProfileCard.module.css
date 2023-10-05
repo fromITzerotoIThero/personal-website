@@ -1,0 +1,36 @@
+.container {
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    box-shadow: 4px 4px 8px #000;
+}
+
+.container:hover {
+    background-color: #151515;
+    transition: background-color 0.5s;
+}
+
+.heading {
+    font-size: 1.75rem;
+}
+
+.image {
+    opacity: 0.4;
+    transition: opacity 0.5s;
+}
+
+.image:hover {
+    opacity: 1;
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin: 0 1rem;
+    }    
+}
+
+@media (min-width: 1024px) {
+    .container {
+        flex: 1;
+    }    
+}

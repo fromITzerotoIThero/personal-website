@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 68%;
+        justify-content: flex-end;
+    }
+}
