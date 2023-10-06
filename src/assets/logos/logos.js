@@ -1,0 +1,12 @@
+export { ReactComponent as ReactLogo} from './react-logo.svg';
+export { ReactComponent as JavaScriptLogo} from './javascript-logo.svg';
+export { ReactComponent as TypeScriptLogo} from './typescript-logo.svg';
+export { ReactComponent as ReduxLogo} from './redux-logo.svg';
+export { ReactComponent as CSS3Logo} from './css3-logo.svg';
+export { ReactComponent as HTML5Logo} from './html5-logo.svg';
+export { ReactComponent as GitLogo} from './git-logo.svg';
+export { ReactComponent as GitHubLogo} from './github-logo.svg';
+export { ReactComponent as NpmLogo} from './npm-logo.svg';
+export { ReactComponent as FigmaLogo} from './figma-logo.svg';
+export { ReactComponent as GIMPLogo} from './gimp-logo.svg';
+export { ReactComponent as VSCodeLogo} from './vscode-logo.svg';
