@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './StackPill.module.css';
 
-function StackPill({ logoSrc, logoLabel }) {
+function StackPill({ logoComponent, logoLabel }) {
     return (
         <div className={styles.container}>
-            <img src={logoSrc} alt={logoLabel} />
+            <div className={styles.logo}>{logoComponent}</div>
             <p className={styles.label}>{logoLabel}</p>
         </div>
     );
