@@ -4,9 +4,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    opacity: 0.6;
+    transition: opacity 0.3 ease;
+}
+
+.container:hover  {
+    opacity: 1;
 }
 
 .logo {
-    min-width: 64px;
-    min-height: 64px;
+    min-width: 4rem;
+    min-height: 4rem;
 }
