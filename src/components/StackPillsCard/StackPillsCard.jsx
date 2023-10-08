@@ -1,46 +1,47 @@
 import React from 'react';
-import StackPill from '../StackPill/StackPill';
 import * as logos from '../../assets/logos/logos';
+import styles from './StackPillsCard.module.css';
+import StackPill from '../StackPill/StackPill';
 
 function StackPillsCard() {
     return (
-        <div>           
-            <StackPill 
+        <div className={styles.container}>
+            <StackPill
+                logoComponent={<logos.JavaScriptLogo />}
+                logoLabel="JavaScript"
+            />
+            <StackPill
                 logoComponent={<logos.ReactLogo />}
                 logoLabel="React.js"
             />
-            <StackPill 
-                logoComponent={<logos.JavaScriptLogo />}
-                logoLabel="JavaScript ES6+"
-            /> 
-            <StackPill 
+            <StackPill
                 logoComponent={<logos.CSS3Logo />}
                 logoLabel="CSS3"
-            /> 
-            <StackPill 
+            />
+            <StackPill
                 logoComponent={<logos.HTML5Logo />}
                 logoLabel="HTML5"
-            /> 
-            <StackPill 
+            />
+            <StackPill
                 logoComponent={<logos.GitLogo />}
                 logoLabel="Git"
-            /> 
-            <StackPill 
+            />
+            <StackPill
                 logoComponent={<logos.GitHubLogo />}
                 logoLabel="GitHub"
-            /> 
-            <StackPill 
+            />
+            <StackPill
                 logoComponent={<logos.FigmaLogo />}
                 logoLabel="Figma"
-            />  
-            <StackPill 
+            />
+            <StackPill
                 logoComponent={<logos.GIMPLogo />}
                 logoLabel="GIMP"
-            />  
-            <StackPill 
+            />
+            <StackPill
                 logoComponent={<logos.VSCodeLogo />}
                 logoLabel="VS Code"
-            />  
+            />
         </div>
     );
 }
