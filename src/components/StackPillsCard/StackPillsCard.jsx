@@ -41,6 +41,17 @@ function StackPillsCard() {
             <StackPill
                 logoComponent={<logos.VSCodeLogo />}
                 logoLabel="VS Code"
+            />            
+            <StackPill
+                logoComponent={<logos.TypeScriptLogo />}
+                logoLabel="TypeScript"
+            />
+            <StackPill                
+                logoLabel="In progress <- ->"
+            />
+            <StackPill
+                logoComponent={<logos.ReduxLogo />}
+                logoLabel="Redux"
             />
         </div>
     );
