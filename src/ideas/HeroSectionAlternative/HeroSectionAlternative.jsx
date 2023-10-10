@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './HeroSectionAlternative.module.css';
-import Menu from '../Menu/Menu';
+import Menu from '../../components/Menu/Menu';
 
 function HeroSectionAlternative() {
     return (
