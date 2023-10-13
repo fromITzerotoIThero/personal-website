@@ -8,12 +8,11 @@ import { anexWebsitePrintscreen, gosiaPanekWebsitePrintscreen, promaWebsitePrint
 class PortfolioSlider extends Component {
 
     render() {
-
-        const breakpoint = {
-            small: 400,
-            medium: 768,
-            large: 1024,
-        }
+        // const breakpoint = {
+        //     small: 400,
+        //     medium: 768,
+        //     large: 1024,
+        // }
 
         const settings = {
             dots: true,
@@ -21,15 +20,15 @@ class PortfolioSlider extends Component {
             speed: 500,
             slidesToShow: 1,
             slidesToScroll: 1,
-            centerMode: true,
-            responsive: [
-                {
-                    breakpoint: breakpoint.large,
-                    settings: {
-                        centerMode: false,
-                    }
-                }
-            ]
+            centerMode: false,
+            // responsive: [
+            //     {
+            //         breakpoint: breakpoint.large,
+            //         settings: {
+            //             centerMode: false,
+            //         }
+            //     }
+            // ]
         };
 
         return (
