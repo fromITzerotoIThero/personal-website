@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './App.css';
+import HeroSectionFixIt from './ideas/HeroSectionFixIt/HeroSectionFitIt';
 import HeroSection from './components/HeroSection/HeroSection';
 import ProfileCardsSection from './components/ProfileCardsSection/ProfileCardsSection';
 import PortfolioSlider from './components/PortfolioSlider/PortfolioSlider';
@@ -12,6 +13,7 @@ function App() {
             <HeroSection />
             <ProfileCardsSection />
             <PortfolioSlider />
+            <HeroSectionFixIt />
             <Footer />
         </div>
     );
