@@ -12,6 +12,12 @@
 
 .slide {
     padding: 0 0.5rem;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+}
+
+.slide:hover {
+    opacity: 1;
 }
 
 .image {
