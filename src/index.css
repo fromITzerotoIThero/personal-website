@@ -7,8 +7,8 @@
 
     --default-background-color: #111;
     --light-background-color: #fff;
-    --heading-text-color: #eee;
-    --default-text-color: #ddd;
+    --heading-text-color: #ddd;
+    --default-text-color: #ccc;
 }
 
 html {
