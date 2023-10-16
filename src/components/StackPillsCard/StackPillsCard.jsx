@@ -45,10 +45,12 @@ function StackPillsCard() {
             <StackPill
                 logoComponent={<logos.TypeScriptLogo />}
                 logoLabel="TypeScript"
+                isInProgress={true}
             />
             <StackPill
                 logoComponent={<logos.ReduxLogo />}
                 logoLabel="Redux"
+                isInProgress={true}
             />
         </div>
     );
