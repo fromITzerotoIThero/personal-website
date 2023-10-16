@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import styles from './PortfolioSlider.module.css';
-import { anexWebsitePrintscreen, gosiaPanekWebsitePrintscreen, promaWebsitePrintscreen } from '../../assets/images/images';
+import { personalWebsiteMockup, anexWebsitePrintscreen, gosiaPanekWebsitePrintscreen, promaWebsitePrintscreen } from '../../assets/images/images';
 
 class PortfolioSlider extends Component {
 
@@ -45,7 +45,7 @@ class PortfolioSlider extends Component {
                             <img src={promaWebsitePrintscreen} alt="Ducky duck" className={styles.image} />
                         </div>
                         <div className={styles.slide}>
-                            <img src={gosiaPanekWebsitePrintscreen} alt="Ducky duck" className={styles.image} />
+                            <img src={personalWebsiteMockup} alt="Ducky duck" className={styles.image} />
                         </div>
                     </Slider>
                 </div>
