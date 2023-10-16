@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './HeroSectionFixIt.module.css';
+import styles from './HeroSectionFixItGrey.module.css';
 import Menu from '../../components/Menu/Menu';
 
 function HeroSectionFixIt() {
