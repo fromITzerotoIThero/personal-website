@@ -9,6 +9,7 @@
     --light-background-color: #fff;
     --heading-text-color: #ddd;
     --default-text-color: #ccc;
+    --icon-stroke-color: #ccc;
 }
 
 html {
