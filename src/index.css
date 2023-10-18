@@ -14,6 +14,7 @@
 html {
     box-sizing: border-box;
     margin: 0;
+    scrollbar-gutter: stable;
     font-family: "Inter", system-ui, "Roboto", Helvetica, Arial, Helvetica, sans-serif;
     font-size: 12px;
     line-height: 1.5;
