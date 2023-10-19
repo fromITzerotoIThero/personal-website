@@ -5,7 +5,7 @@ function ProfileCard({ heading, content, imageSrc }) {
     return (
         <div className={styles.container}>
             <h1 className={styles.heading}>{heading}</h1>
-            <p>{content}</p>
+            <p className={styles.content}>{content}</p>
             {imageSrc &&
                 <img src={imageSrc} alt="" className={styles.image} />
             }

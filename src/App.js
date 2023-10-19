@@ -9,8 +9,8 @@ import Footer from './components/Footer/Footer';
 function App() {
 
     return (
-        <div id="content_container" className={styles.content_container}>
-            <HeroSection />
+        <div id="content_container" className={styles.content_container}>            
+            <HeroSection />            
             <ProfileCardsSection />
             <PortfolioSlider />
             <HeroSectionFixIt />

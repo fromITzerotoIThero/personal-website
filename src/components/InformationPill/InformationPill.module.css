@@ -1,7 +1,9 @@
 .container {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin: 1rem 0;
     padding: 1rem;
     background-color: rgba(40, 40, 40, 0.5);
     border-radius: 1rem;
@@ -9,11 +11,38 @@
     transition: opacity 0.3s ease;
 }
 
-.container:hover  {
+.container:hover {
     opacity: 1;
 }
 
-.icon {
-    min-width: 4rem;
-    min-height: 4rem;
+.icon_container>svg {
+    padding: 1rem;
+    width: 7rem;
+    height: auto; 
 }
+
+.text {
+    padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        flex-direction: row;
+    }
+
+}
+
+
+    /* .icon_container {
+        width: 20%;
+    }
+
+    .text {
+        width: 80%;
+    } */

@@ -14,6 +14,12 @@
     font-size: 1.75rem;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .image {
     opacity: 0.4;
     transition: opacity 0.5s;

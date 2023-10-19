@@ -3,4 +3,5 @@ export { ReactComponent as StethoscopeIcon } from './stethoscope-icon.svg';
 export { ReactComponent as LaptopIcon } from './laptop-icon.svg';
 export { ReactComponent as GroupOfPeopleIcon } from './group-of-people-icon.svg';
 export { ReactComponent as MagnifyingGlassIcon } from './magnifying-glass-icon.svg';
-export { ReactComponent as RightArrowIcon } from './right-arrow-icon.svg';
+export { ReactComponent as ArrowRightIcon } from './arrow-right-icon.svg';
+export { ReactComponent as ArrowDownIcon } from './arrow-down-icon.svg';
