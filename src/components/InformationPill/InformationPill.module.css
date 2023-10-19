@@ -18,31 +18,24 @@
 .icon_container>svg {
     padding: 1rem;
     width: 7rem;
-    height: auto; 
+    height: auto;
 }
 
 .text {
     padding: 0 1rem;
 }
 
-@media (min-width: 768px) {
-    .container {
-        flex-direction: row;
-    }
-}
-
 @media (min-width: 1024px) {
-    .container {
-        flex-direction: row;
-    }
-
-}
-
-
-    /* .icon_container {
-        width: 20%;
-    }
 
     .text {
-        width: 80%;
-    } */
+        margin-top: 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1400px) {
+    
+    .container {
+        flex-direction: row;
+    }
+}
