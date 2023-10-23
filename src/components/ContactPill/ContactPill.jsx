@@ -1,29 +1,13 @@
 import React from 'react';
-import styles form './ContactPill.module.css';
+import styles from './ContactPill.module.css';
 
-function ContactPill() {
-  return (
-    <div>ContactPill</div>
-  )
+function ContactPill({ href, ariaLabel, iconComponent, contactInformation }) {
+    return (
+        <a href={href} aria-label={ariaLabel} className={styles.container}>
+            {iconComponent}
+            <div>{contactInformation}</div>
+        </a>
+    )
 }
 
-export default ContactPill
-
-
-// import React from 'react';
-// import styles from './StackPill.module.css';
-
-// function StackPill({ logoComponent, logoLabel, isInProgress }) {
-//     return (
-//         <div className={styles.container}>
-//             {isInProgress &&
-//                 <div className={styles.progress_band}>WIP</div>
-//             }
-
-//             <div className={styles.logo}>{logoComponent}</div>
-//             <p className={styles.label}>{logoLabel}</p>
-//         </div>
-//     );
-// }
-
-// export default StackPill;
+export default ContactPill;
