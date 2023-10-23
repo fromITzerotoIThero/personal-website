@@ -4,6 +4,7 @@ import HeroSectionFixIt from './ideas/HeroSectionFixIt/HeroSectionFixIt';
 import HeroSection from './components/HeroSection/HeroSection';
 import ProfileCardsSection from './components/ProfileCardsSection/ProfileCardsSection';
 import PortfolioSlider from './components/PortfolioSlider/PortfolioSlider';
+import ContactSection from './components/ContactSection/ContactSection';
 import Footer from './components/Footer/Footer';
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
             <HeroSection />            
             <ProfileCardsSection />
             <PortfolioSlider />
-            <HeroSectionFixIt />
+            {/* <HeroSectionFixIt /> */}
+            <ContactSection />
             <Footer />
         </div>
     );
