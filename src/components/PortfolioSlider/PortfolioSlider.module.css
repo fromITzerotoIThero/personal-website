@@ -24,10 +24,13 @@
     width: 100%;
 }
 
-/* .container_internal button.slick-arrow.slick-next {
-    background-color: blue;
+:global button.slick-arrow::before {
+    color: var(--icon-stroke-color);
+}
+
+:global .slick-dots li.slick-active::before {
     color: red;
-} */
+}
 
 .container_internal li button::before {
     color: var(--heading-text-color);
