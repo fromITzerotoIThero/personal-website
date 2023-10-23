@@ -1,11 +1,46 @@
 import React from 'react';
+import { GitHubLogoCustom, LinkedInLogo } from '../../assets/logos/logos';
+import { EmailIcon, TelephoneIcon, DownloadIcon } from '../../assets/icons/icons';
 import styles from './ContactSection.module.css';
+import ContactPill from '../ContactPill/ContactPill';
 
 function ContactSection() {
 
     return (
         <div className={styles.container}>
             <h1 className={styles.heading}>Contact me</h1>
+            <div className={styles.pills_container}>
+                <ContactPill
+                    href="https://www.linkedin.com/in/gosia-panek/"
+                    ariaLabel="LinkedIn profile"
+                    iconComponent={<LinkedInLogo />}
+                    contactInformation="LinkedIn Profile"
+                />
+                <ContactPill
+                    href="https://github.com/fromITzerotoIThero"
+                    ariaLabel="GitHub repository"
+                    iconComponent={<GitHubLogoCustom />}
+                    contactInformation="GitHub Repository"
+                />
+                <ContactPill
+                    href="mpanek.uni@gmail.com"
+                    ariaLabel="Email: mpanek.uni@gmail.com"
+                    iconComponent={<EmailIcon />}
+                    contactInformation="mpanek.uni@gmail.com"
+                />
+                <ContactPill
+                    href="tel:+48609505822"
+                    ariaLabel="Phone number: +48 609 505 822"
+                    iconComponent={<TelephoneIcon />}
+                    contactInformation="+48 609 505 822"
+                />
+            </div>
+            <a href="/assets/gosia-panek-cv-en-wa.pdf" download>
+                <button className={styles.button}>
+                    <DownloadIcon />
+                    Download CV
+                </button>
+            </a>
         </div>
     );
 }
