@@ -1,0 +1,22 @@
+.container {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.container:hover {
+    opacity: 1;
+}
+
+.icon_container>svg {
+    width: 3rem;
+    height: auto;
+}
+
+.text {
+    padding: 1rem;
+}
