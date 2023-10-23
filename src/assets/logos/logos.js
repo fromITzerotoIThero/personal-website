@@ -10,3 +10,5 @@ export { ReactComponent as NpmLogo } from './npm-logo.svg';
 export { ReactComponent as FigmaLogo } from './figma-logo.svg';
 export { ReactComponent as GIMPLogo } from './gimp-logo.svg';
 export { ReactComponent as VSCodeLogo } from './vscode-logo.svg';
+export { ReactComponent as LinkedInLogo } from './linkedin-logo.svg';
+export {ReactComponent as GitHubLogoCustom } from './github-logo-custom.svg';
