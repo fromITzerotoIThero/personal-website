@@ -7,3 +7,4 @@ export { ReactComponent as ArrowRightIcon } from './arrow-right-icon.svg';
 export { ReactComponent as ArrowDownIcon } from './arrow-down-icon.svg';
 export { ReactComponent as EmailIcon } from './email-icon.svg';
 export { ReactComponent as TelephoneIcon } from './telephone-icon.svg';
+export { ReactComponent as DownloadIcon } from './download-icon.svg';
