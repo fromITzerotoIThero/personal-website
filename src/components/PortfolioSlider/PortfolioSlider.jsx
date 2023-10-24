@@ -8,7 +8,6 @@ import { personalWebsiteMockup, anexWebsitePrintscreen, gosiaPanekWebsitePrintsc
 class PortfolioSlider extends Component {
 
     render() {
-
         const settings = {
             dots: true,
             infinite: true,
@@ -19,24 +18,22 @@ class PortfolioSlider extends Component {
         };
 
         return (
-            <div className={styles.container_external}>
-                <div className={styles.container_internal}>
-                    <Slider {...settings} className={styles.slider}>
-                        <div className={styles.slide}>
-                            <img src={anexWebsitePrintscreen} alt="Ducky duck" className={styles.image} />
-                        </div>
-                        <div className={styles.slide}>
-                            <img src={gosiaPanekWebsitePrintscreen} alt="Ducky duck" className={styles.image} />
-                        </div>
-                        <div className={styles.slide}>
-                            <img src={promaWebsitePrintscreen} alt="Ducky duck" className={styles.image} />
-                        </div>
-                        <div className={styles.slide}>
-                            <img src={personalWebsiteMockup} alt="Ducky duck" className={styles.image} />
-                        </div>
-                    </Slider>
-                </div>
-            </div >
+            <section className={styles.container}>
+                <Slider {...settings} className={styles.slider}>
+                    <div className={styles.slide}>
+                        <img src={anexWebsitePrintscreen} alt="Ducky duck" className={styles.image} />
+                    </div>
+                    <div className={styles.slide}>
+                        <img src={gosiaPanekWebsitePrintscreen} alt="Ducky duck" className={styles.image} />
+                    </div>
+                    <div className={styles.slide}>
+                        <img src={promaWebsitePrintscreen} alt="Ducky duck" className={styles.image} />
+                    </div>
+                    <div className={styles.slide}>
+                        <img src={personalWebsiteMockup} alt="Ducky duck" className={styles.image} />
+                    </div>
+                </Slider>
+            </section>
         );
     }
 }
