@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import styles from './MenuMobile.module.css';
-import MenuMobileItem from '../MenuMobileItem/MenuMobileItem';
+import MenuMobileItem from './MenuMobileItem/MenuMobileItem';
 
 function MenuMobile() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);

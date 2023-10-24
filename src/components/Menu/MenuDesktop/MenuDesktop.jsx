@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './MenuDesktop.module.css';
-import MenuDesktopItem from '../MenuDesktopItem/MenuDesktopItem';
+import MenuDesktopItem from './MenuDesktopItem/MenuDesktopItem';
 
 function MenuDesktop() {
     return (
