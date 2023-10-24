@@ -11,10 +11,10 @@ function App() {
 
     return (
         <div id="content_container" className={styles.content_container}>            
-            <HeroSection />            
+            <HeroSectionFixIt />            
             <ProfileCardsSection />
             <PortfolioSlider />
-            {/* <HeroSectionFixIt /> */}
+            {/* <HeroSection /> */}
             <ContactSection />
             <Footer />
         </div>
