@@ -1,13 +1,11 @@
-.container_external {
+.container {
     width: 100%;
-    margin: 1rem 0;
-    padding: 2rem 3rem 3rem;
-    background-color: #141414;
+    padding: 2rem 0.5rem;
 }
 
-.container_internal {
-    margin: 0 auto;
-    width: 100%;
+.slider {
+    margin: 1rem auto;
+    width: 80%;
 }
 
 .slide {
@@ -24,30 +22,58 @@
     width: 100%;
 }
 
-:global button.slick-arrow::before {
+:global .slick-arrow::before {
     color: var(--icon-stroke-color);
 }
 
-:global .slick-dots li.slick-active::before {
-    color: red;
+:global .slick-prev,
+:global .slick-next {
+    top: 44%;
 }
 
-.container_internal li button::before {
-    color: var(--heading-text-color);
+:global .slick-dots {
+    bottom: -1rem;
 }
 
-@media (min-width: 400px) {
-    .container_internal {
+:global .slick-dots li button::before,
+:global .slick-dots li.slick-active button::before {
+    color: var(--icon-stroke-color);
+}
+
+@media (min-width: 400px) {    
+    .container {
+        padding: 2rem 1rem;
+    }
+
+    .slider {
         width: 88%;
     }
 
+    :global .slick-dots {
+        bottom: 0;
+    }
+}
+
+@media (min-width: 768px) {    
     .slide {
         padding: 1rem;
+    }
+
+    :global .slick-dots {
+        bottom: 2rem;
     }
 }
 
 @media (min-width: 1440px) {
-    .container_internal {
+    .slider {
         width: 72%;
+    }
+
+    .slide {
+        padding: 2rem;
+    }
+
+    :global .slick-dots {
+        bottom: 4rem;
     }
 }
