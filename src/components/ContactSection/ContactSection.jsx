@@ -7,7 +7,7 @@ import ContactPill from '../ContactPill/ContactPill';
 function ContactSection() {
 
     return (
-        <div className={styles.container}>
+        <section className={styles.container}>
             <h1 className={styles.heading}>Contact me</h1>
             <div className={styles.pills_container}>
                 <ContactPill
@@ -41,7 +41,7 @@ function ContactSection() {
                     Download CV
                 </button>
             </a>
-        </div>
+        </section>
     );
 }
 
