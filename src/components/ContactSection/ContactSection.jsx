@@ -23,7 +23,7 @@ function ContactSection() {
                     contactInformation="GitHub Repository"
                 />
                 <ContactPill
-                    href="mpanek.uni@gmail.com"
+                    href="mailto:mpanek.uni@gmail.com"
                     ariaLabel="Email: mpanek.uni@gmail.com"
                     iconComponent={<EmailIcon />}
                     contactInformation="mpanek.uni@gmail.com"
@@ -33,14 +33,16 @@ function ContactSection() {
                     ariaLabel="Phone number: +48 609 505 822"
                     iconComponent={<TelephoneIcon />}
                     contactInformation="+48 609 505 822"
+                    target="_self"
+                />
+                <ContactPill
+                    href="/assets/gosia-panek-cv-en-wa.pdf"
+                    ariaLabel="Download resume"
+                    iconComponent={<DownloadIcon />}
+                    contactInformation="Download CV"
+                    download={true}
                 />
             </div>
-            <a href="/assets/gosia-panek-cv-en-wa.pdf" download>
-                <button className={styles.button}>
-                    <DownloadIcon />
-                    Download CV
-                </button>
-            </a>
         </section>
     );
 }
