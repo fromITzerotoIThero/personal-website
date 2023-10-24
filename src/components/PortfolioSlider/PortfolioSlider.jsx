@@ -8,11 +8,6 @@ import { personalWebsiteMockup, anexWebsitePrintscreen, gosiaPanekWebsitePrintsc
 class PortfolioSlider extends Component {
 
     render() {
-        // const breakpoint = {
-        //     small: 400,
-        //     medium: 768,
-        //     large: 1024,
-        // }
 
         const settings = {
             dots: true,
@@ -21,14 +16,6 @@ class PortfolioSlider extends Component {
             slidesToShow: 1,
             slidesToScroll: 1,
             centerMode: false,
-            // responsive: [
-            //     {
-            //         breakpoint: breakpoint.large,
-            //         settings: {
-            //             centerMode: false,
-            //         }
-            //     }
-            // ]
         };
 
         return (
