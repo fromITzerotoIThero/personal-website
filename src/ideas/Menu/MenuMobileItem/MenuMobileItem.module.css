@@ -1,0 +1,17 @@
+.item {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #333;
+    list-style-type: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.item a {
+    color: var(--default-text-color);
+    text-decoration: none;
+}
+
+.item:hover {
+    text-decoration: underline;
+}
