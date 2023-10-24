@@ -16,13 +16,12 @@ function MenuMobile() {
 
     return (
         <>
-            {isMenuMobileOpen ?
+            <MenuMobileHamburger
+                onClickHandler={toggleMenu}
+            />
+            {isMenuMobileOpen &&
                 <MenuMobileFlyout
                     onCloseHandler={closeMenu}
-                />
-                :
-                <MenuMobileHamburger
-                    onClickHandler={toggleMenu}
                 />
             }
         </>
