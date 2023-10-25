@@ -5,18 +5,15 @@ import MenuMobileItem from '../MenuMobileItem/MenuMobileItem';
 function MenuMobileFlyout({onCloseHandler}) {
     return (
         <div className={styles.overlay} >
-            <nav className={styles.open}>
+            <nav className={styles.navigation}>
                 <button
-                    className={`${styles.button} ${styles.close_menu}`}
+                    className={styles.button}
                     onClick={onCloseHandler}>
                     X CLOSE
                 </button>
                 <ul>
                     <MenuMobileItem
                         itemName="About"
-                    />
-                    <MenuMobileItem
-                        itemName="Blabla"
                     />
                     <MenuMobileItem
                         itemName="Portfolio"
