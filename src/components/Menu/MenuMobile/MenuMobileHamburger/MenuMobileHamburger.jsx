@@ -3,9 +3,9 @@ import styles from './MenuMobileHamburger.module.css';
 
 function MenuMobileHamburger({ onClickHandler }) {
     return (
-        <nav className={styles.closed}>
+        <nav className={styles.container}>
             <button
-                className={`${styles.button} ${styles.open_menu}`}
+                className={styles.button}
                 onClick={onClickHandler}>
                 MENU
             </button>
