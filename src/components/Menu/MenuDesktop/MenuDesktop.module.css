@@ -1,6 +1,7 @@
 .container {
     display: flex;
     align-self: flex-end;
+    margin: 1rem 2rem;
 }
 
 .list {
@@ -9,8 +10,8 @@
     align-items: center;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1600px) {
     .container {
-        width: 36%;
+        width: 28%;
     }
 }

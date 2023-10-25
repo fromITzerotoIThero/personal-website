@@ -15,15 +15,10 @@ function MenuDesktop() {
                     linkTarget=""
                 />
                 <MenuDesktopItem
-                    itemName="Blablabla"
-                    linkTarget=""
-                />
-                <MenuDesktopItem
                     itemName="Contact"
                     linkTarget=""
                 />
             </ul>
-
         </nav>
     );
 }
