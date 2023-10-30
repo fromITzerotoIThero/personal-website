@@ -16,7 +16,10 @@
 }
 
 .heading {
-    margin: 1.5rem 2rem;
+    margin-top: auto;
+    margin-right: 2rem;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
     font-size: 2rem;
     font-weight: 300;
 }
