@@ -1,12 +1,13 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import styles from './MenuMobileItem.module.css';
 
 function MenuMobileItem({ linkTarget, itemName }) {
     return (
         <li className={styles.item}>
-            <a href={linkTarget}>
+            <NavLink href={linkTarget}>
                 {itemName}
-            </a>
+            </NavLink>
         </li>
     );
 }
