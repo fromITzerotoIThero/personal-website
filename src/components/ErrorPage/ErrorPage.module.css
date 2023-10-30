@@ -1,0 +1,19 @@
+.container {
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 1rem 2rem;    
+    text-align: center;
+    box-shadow: 4px 4px 8px #000;        
+    transition: background-color 0.3s ease;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_container>svg {
+    max-width: 8rem;
+}
