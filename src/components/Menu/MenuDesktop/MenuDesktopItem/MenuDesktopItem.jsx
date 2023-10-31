@@ -1,13 +1,13 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 import styles from './MenuDesktopItem.module.css';
 
 function MenuDesktopItem({ linkTarget, itemName }) {
     return (
         <li className={styles.item}>
-            <NavLink to={linkTarget}>
+            <NavHashLink to={linkTarget}>
                 {itemName}
-            </NavLink>
+            </NavHashLink>
         </li>
     );
 }
