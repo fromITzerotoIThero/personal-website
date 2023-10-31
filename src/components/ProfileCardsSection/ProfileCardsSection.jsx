@@ -7,9 +7,10 @@ import StackPillsCard from '../StackPillsCard/StackPillsCard';
 
 function ProfileCardsSection() {
     return (
-        <section className={styles.container}>
+        <section id="about" className={styles.container}>
             <ProfileCard
-                heading="About"
+                cardId="intro"
+                heading="Intro"
                 content={
                     <>
                         <InformationPill
@@ -28,12 +29,14 @@ function ProfileCardsSection() {
                 }
             />
             <ProfileCard
+                cardId="stack"
                 heading="Stack"
                 content={
                     <StackPillsCard />
                 }
             />
             <ProfileCard
+                cardId="extras"
                 heading="Extras"
                 content={
                     <>
