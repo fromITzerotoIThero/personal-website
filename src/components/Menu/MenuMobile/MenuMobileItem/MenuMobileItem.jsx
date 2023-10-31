@@ -5,7 +5,7 @@ import styles from './MenuMobileItem.module.css';
 function MenuMobileItem({ linkTarget, itemName }) {
     return (
         <li className={styles.item}>
-            <NavLink href={linkTarget}>
+            <NavLink to={linkTarget}>
                 {itemName}
             </NavLink>
         </li>

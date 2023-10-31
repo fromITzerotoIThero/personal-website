@@ -9,15 +9,15 @@ function MenuDesktop() {
                 <ul className={styles.list}>
                     <MenuDesktopItem
                         itemName="About"
-                        linkTarget=""
+                        linkTarget="/#about"
                     />
                     <MenuDesktopItem
                         itemName="Portfolio"
-                        linkTarget=""
+                        linkTarget="/#portfolio"
                     />
                     <MenuDesktopItem
                         itemName="Contact"
-                        linkTarget=""
+                        linkTarget="/#contact"
                     />
                 </ul>
             </nav>
