@@ -15,14 +15,17 @@ function MenuMobileFlyout({onCloseHandler}) {
                     <MenuMobileItem
                         itemName="About"
                         linkTarget="/#about"
+                        onMenuItemClick={onCloseHandler}
                     />
                     <MenuMobileItem
                         itemName="Portfolio"
                         linkTarget="/#portfolio"
+                        onMenuItemClick={onCloseHandler}
                     />
                     <MenuMobileItem
                         itemName="Contact"
                         linkTarget="/#contact"
+                        onMenuItemClick={onCloseHandler}
                     />
                 </ul>
             </nav>
