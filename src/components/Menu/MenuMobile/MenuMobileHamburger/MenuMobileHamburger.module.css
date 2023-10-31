@@ -1,8 +1,12 @@
-.container {
-    display: flex;
-    align-self: flex-end;
+.container_external {
     position: fixed;
     top: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgba(17, 17, 17, 0.7);
+    backdrop-filter: blur(4px);
+    z-index: 1;
 }
 
 .button {
