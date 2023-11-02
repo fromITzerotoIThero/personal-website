@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './MenuMobileFlyout.module.css';
+import { CloseButton } from '../../../../assets/icons/icons';
 import MenuMobileItem from '../MenuMobileItem/MenuMobileItem';
 
 function MenuMobileFlyout({ onCloseHandler }) {
@@ -9,7 +10,7 @@ function MenuMobileFlyout({ onCloseHandler }) {
                 <button
                     className={styles.button}
                     onClick={onCloseHandler}>
-                    X CLOSE
+                    <CloseButton />
                 </button>
                 <ul>
                     <MenuMobileItem
