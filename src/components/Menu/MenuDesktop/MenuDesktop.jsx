@@ -5,6 +5,7 @@ import MenuDesktopItem from './MenuDesktopItem/MenuDesktopItem';
 
 function MenuDesktop() {
     const [isScrolled, setIsScrolled] = useState(false);
+    
     useScrollPosition(({ currPos }) => {
         if (currPos.y < - 400) {
             setIsScrolled(true);
