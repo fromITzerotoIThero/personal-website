@@ -1,6 +1,12 @@
 .container {
+    position: relative;
     width: 100%;
     padding: 2rem 0.5rem;
+}
+
+.navigation_trick_element {
+    position: absolute;
+    top: -60px;
 }
 
 .slider {
@@ -40,7 +46,7 @@
     color: var(--icon-stroke-color);
 }
 
-@media (min-width: 400px) {    
+@media (min-width: 400px) {
     .container {
         padding: 2rem 1rem;
     }
@@ -54,7 +60,7 @@
     }
 }
 
-@media (min-width: 768px) {    
+@media (min-width: 768px) {
     .slide {
         padding: 1rem;
     }

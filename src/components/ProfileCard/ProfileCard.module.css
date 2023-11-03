@@ -1,4 +1,5 @@
 .container {
+    position: relative;
     padding: 1rem 2rem;    
     border-radius: 1rem;
     text-align: center;
@@ -8,6 +9,11 @@
 
 .container:hover {
     background-color: #141414;
+}
+
+.navigation_trick_element {
+    position: absolute;
+    top: -60px;
 }
 
 .heading {

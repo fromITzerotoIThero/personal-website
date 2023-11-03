@@ -1,8 +1,14 @@
 .container {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
+}
+
+.navigation_trick_element {
+    position: absolute;
+    top: -60px;
 }
 
 @media (min-width: 768px) {

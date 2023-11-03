@@ -18,7 +18,8 @@ class PortfolioSlider extends Component {
         };
 
         return (
-            <section id="portfolio" className={styles.container}>
+            <section className={styles.container}>
+                <div  id="portfolio" className={styles.navigation_trick_element}></div>
                 <Slider {...settings} className={styles.slider}>
                     <div className={styles.slide}>
                         <img src={anexWebsitePrintscreen} alt="Ducky duck" className={styles.image} />

@@ -7,7 +7,8 @@ import StackPillsCard from '../StackPillsCard/StackPillsCard';
 
 function ProfileCardsSection() {
     return (
-        <section id="about" className={styles.container}>
+        <section className={styles.container}>
+            <div id="about" className={styles.navigation_trick_element}></div>
             <ProfileCard
                 cardId="intro"
                 heading="Intro"
