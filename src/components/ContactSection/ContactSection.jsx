@@ -28,13 +28,13 @@ function ContactSection() {
                     iconComponent={<EmailIcon />}
                     contactInformation="mpanek.uni@gmail.com"
                 />
-                <ContactPill
+                {/* <ContactPill
                     href="tel:+48609505822"
                     ariaLabel="Phone number: +48 609 505 822"
                     iconComponent={<TelephoneIcon />}
                     contactInformation="+48 609 505 822"
                     target="_self"
-                />
+                /> */}
                 <ContactPill
                     href="/assets/gosia-panek-cv-en-wa.pdf"
                     ariaLabel="Download resume"

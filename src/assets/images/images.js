@@ -6,5 +6,6 @@ import gosiaPanekWebsitePrintscreen from './gosia-panek-website.png';
 import anexWebsitePrintscreen from './anex-website.png';
 import promaWebsitePrintscreen from './proma-website.png';
 import personalWebsiteMockup from './personal-website-mockup.png';
+import IBOSHomePageMockup from './ibos-homepage-mockup.png'
 
-export { personalWebsiteMockup, gosiaPanekWebsitePrintscreen, anexWebsitePrintscreen, promaWebsitePrintscreen, rubberDuckImage, rubberDuckInBathImage, codeScreenBrightImage, codeScreenDarkImage };
+export { personalWebsiteMockup, gosiaPanekWebsitePrintscreen, anexWebsitePrintscreen, promaWebsitePrintscreen, rubberDuckImage, rubberDuckInBathImage, codeScreenBrightImage, codeScreenDarkImage, IBOSHomePageMockup };
