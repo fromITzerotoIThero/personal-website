@@ -1,17 +1,21 @@
 import React from 'react';
 import styles from './MenuMobileFlyout.module.css';
 import { CloseButton } from '../../../../assets/icons/icons';
+import HomeButton from '../../HomeButton/HomeButton';
 import MenuMobileItem from '../MenuMobileItem/MenuMobileItem';
 
 function MenuMobileFlyout({ onCloseHandler }) {
     return (
         <div className={styles.overlay} >
             <nav className={styles.navigation}>
-                <button
-                    className={styles.button}
-                    onClick={onCloseHandler}>
-                    <CloseButton />
-                </button>
+                <div className={styles.button_container}>
+                    <div className={styles.home_button_container} onClick={onCloseHandler}>
+                        <HomeButton />
+                    </div>
+                    <button className={styles.button} onClick={onCloseHandler}>
+                        <CloseButton />
+                    </button>
+                </div>
                 <ul>
                     <MenuMobileItem
                         itemName="About"
