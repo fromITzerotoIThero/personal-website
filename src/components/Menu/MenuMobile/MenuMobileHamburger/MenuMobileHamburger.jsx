@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useMediaQuery } from 'react-responsive';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 import styles from './MenuMobileHamburger.module.css';
-import { HamburgerMenu } from '../../../../assets/icons/icons';
+import { HamburgerMenuIcon } from '../../../../assets/icons/icons';
 
 function MenuMobileHamburger({ onClickHandler }) {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -29,8 +29,9 @@ function MenuMobileHamburger({ onClickHandler }) {
             <nav className={styles.container}>
                 <button
                     className={styles.button}
-                    onClick={onClickHandler}>
-                    <HamburgerMenu />
+                    onClick={onClickHandler}
+                >
+                    <HamburgerMenuIcon />
                 </button>
             </nav>
         </div>

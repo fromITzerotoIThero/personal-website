@@ -2,10 +2,11 @@ import React, { useState } from 'react';
 import { useScrollPosition } from '@n8tb1t/use-scroll-position';
 import styles from './MenuDesktop.module.css';
 import MenuDesktopItem from './MenuDesktopItem/MenuDesktopItem';
+import HomeButton from '../HomeButton/HomeButton';
 
 function MenuDesktop() {
     const [isScrolled, setIsScrolled] = useState(false);
-    
+
     useScrollPosition(({ currPos }) => {
         if (currPos.y < - 400) {
             setIsScrolled(true);
@@ -23,6 +24,7 @@ function MenuDesktop() {
 
     return (
         <div className={menuContainerClass}>
+            <HomeButton />
             <nav className={styles.container}>
                 <ul className={styles.list}>
                     <MenuDesktopItem

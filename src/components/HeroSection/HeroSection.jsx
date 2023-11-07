@@ -4,7 +4,7 @@ import Menu from '../Menu/Menu';
 
 function HeroSection() {
     return (
-        <header className={styles.container}>
+        <header id="home" className={styles.container}>
             <Menu />
             <h1 className={styles.heading}>Gosia Panek - Junior Front-End Dev</h1>
         </header>
