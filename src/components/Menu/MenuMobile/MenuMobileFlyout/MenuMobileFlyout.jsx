@@ -4,9 +4,9 @@ import { CloseButton } from '../../../../assets/icons/icons';
 import HomeButton from '../../HomeButton/HomeButton';
 import MenuMobileItem from '../MenuMobileItem/MenuMobileItem';
 
-function MenuMobileFlyout({ onCloseHandler }) {
+function MenuMobileFlyout({ onCloseHandler, active }) {
     return (
-        <div className={styles.overlay} >
+        <div className={`${styles.overlay} ${active ? styles.active : ''}`}>
             <nav className={styles.navigation}>
                 <div className={styles.button_container}>
                     <div className={styles.home_button_container} onClick={onCloseHandler}>
@@ -72,7 +72,7 @@ function MenuMobileFlyout({ onCloseHandler }) {
     )
 }
 
-export default MenuMobileFlyout
+export default MenuMobileFlyout;
 
 
 

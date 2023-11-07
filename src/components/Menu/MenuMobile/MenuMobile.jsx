@@ -22,6 +22,7 @@ function MenuMobile() {
             {isMenuMobileOpen &&
                 <MenuMobileFlyout
                     onCloseHandler={closeMenu}
+                    active={isMenuMobileOpen}
                 />
             }
         </>
