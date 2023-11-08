@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.navigation_trick_element {
+    position: absolute;
+    top: -30px;
+}
+
+.heading {
+    padding: 1rem;
+    font-size: 1.75rem;
+}

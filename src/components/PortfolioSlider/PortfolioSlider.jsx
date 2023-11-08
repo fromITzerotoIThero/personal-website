@@ -20,7 +20,6 @@ class PortfolioSlider extends Component {
 
         return (
             <section className={styles.container}>
-                <div id="portfolio" className={styles.navigation_trick_element}></div>
                 <Slider {...settings} className={styles.slider}>
                     <Link to="/portfolio/ibos">
                         <div className={styles.slide}>

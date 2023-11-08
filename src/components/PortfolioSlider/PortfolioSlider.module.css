@@ -1,12 +1,7 @@
 .container {
     position: relative;
     width: 100%;
-    padding: 2rem 0.5rem;
-}
-
-.navigation_trick_element {
-    position: absolute;
-    top: -60px;
+    padding: 0 0.5rem 2rem 0.5rem;
 }
 
 .slider {
@@ -48,7 +43,8 @@
 
 @media (min-width: 400px) {
     .container {
-        padding: 2rem 1rem;
+        padding: 0 1rem 2rem 1rem;
+        padding: 0 0.5rem 2rem 0.5rem;
     }
 
     .slider {
