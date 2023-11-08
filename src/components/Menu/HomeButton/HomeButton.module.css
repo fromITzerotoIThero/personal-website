@@ -22,8 +22,8 @@
     }
 }
 
-@media (min-width: 1800px) {
+@media (min-width: 2048px) {
     .container {
         margin-left: 16%;
     }
-}
+} 
