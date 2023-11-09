@@ -24,16 +24,20 @@ class PortfolioSlider extends Component {
                     <Link to="/portfolio/ibos">
                         <div className={styles.slide}>
                             <img src={IBOSHomePageMockup} alt="IBOS app on mobile screen" className={styles.image} />
+                            <button className={styles.button_learn_more}>Learn more</button>
                         </div>
                     </Link>
                     <div className={styles.slide}>
                         <img src={anexWebsitePrintscreen} alt="Ducky duck" className={styles.image} />
+                        <button className={styles.button_learn_more}>Learn more</button>
                     </div>
                     <div className={styles.slide}>
                         <img src={promaWebsitePrintscreen} alt="Ducky duck" className={styles.image} />
+                        <button className={styles.button_learn_more}>Learn more</button>
                     </div>
                     <div className={styles.slide}>
                         <img src={personalWebsiteMockup} alt="Ducky duck" className={styles.image} />
+                        <button className={styles.button_learn_more}>Learn more</button>
                     </div>
                 </Slider>
             </section>
