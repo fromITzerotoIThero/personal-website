@@ -3,9 +3,10 @@ import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import ProjectPage from './components/ProjectPage/ProjectPage';
 import ErrorPage from './components/ErrorPage/ErrorPage';
 import ProjectPageLayout from './components/ProjectPageLayout/ProjectPageLayout';
+import IBOSPage from './pages/IBOSPage/IBOSPage';
+
 
 const router = createBrowserRouter([
     {
@@ -20,14 +21,9 @@ const router = createBrowserRouter([
         children: [
             {
                 path: 'ibos',
-                element: <ProjectPage />,
+                element: <IBOSPage />,
                 errorElement: <ErrorPage />,
             },
-            {
-                path: 'anex',
-                element: <ProjectPage />,
-                errorElement: <ErrorPage />,
-            }
         ],
     },
 ]);

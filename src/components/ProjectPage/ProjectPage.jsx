@@ -5,6 +5,7 @@ function ProjectPage({projectName, projectDescription}) {
     return (
         <div>
             <h1 className={styles.heading}>{projectName}</h1>
+            <h1>It's actually tests</h1>
             <div className={styles.description}>
                 {projectDescription}
             </div>

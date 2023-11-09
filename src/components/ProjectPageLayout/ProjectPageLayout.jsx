@@ -1,13 +1,19 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import styles from './ProjectPageLayout.module.css';
-import Menu from '../Menu/Menu';
+import HomeButton from '../Menu/HomeButton/HomeButton';
+import GoBackButton from './GoBackButton/GoBackButton';
 
 function ProjectPageLayout() {
     return (
         <>
-            <Menu />
-            <Outlet />
+            <nav className={styles.navigation}>
+                <HomeButton />
+                <GoBackButton />
+            </nav>
+            <div className={styles.outlet}>
+                <Outlet />
+            </div>
         </>
     );
 }

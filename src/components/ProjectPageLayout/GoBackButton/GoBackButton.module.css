@@ -1,0 +1,29 @@
+.button {
+    /* margin: 0.5rem 1rem; */
+    padding: 1rem;
+    border: none;
+    font-family: inherit;
+    /* font-size: 10px; */
+    font-weight: bold;
+    color: var(--default-text-color);
+    background-color: inherit;
+    cursor: pointer;
+    transition: 0.3s ease;    
+}
+
+.button>svg {
+    width: 1.75rem;
+    height: auto;
+}
+
+@media (min-width: 1600px) {
+    .container {
+        margin-left: 8%;
+    }
+}
+
+@media (min-width: 2048px) {
+    .container {
+        margin-left: 16%;
+    }
+} 
