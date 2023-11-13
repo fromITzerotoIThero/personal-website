@@ -1,14 +1,16 @@
+.container {
+    transform: rotate(90deg);
+}
+
 .button {
-    /* margin: 0.5rem 1rem; */
     padding: 1rem;
     border: none;
     font-family: inherit;
-    /* font-size: 10px; */
     font-weight: bold;
     color: var(--default-text-color);
     background-color: inherit;
     cursor: pointer;
-    transition: 0.3s ease;    
+    transition: 0.3s ease; 
 }
 
 .button>svg {
