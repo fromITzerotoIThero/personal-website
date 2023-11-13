@@ -4,7 +4,7 @@ import styles from './GoBackButton.module.css';
 
 function GoBackButton() {
     return (
-        <div>
+        <div className={styles.container}>
             <HashLink to='/#portfolio'>
                 <button className={styles.button}>Go back</button>
             </HashLink>

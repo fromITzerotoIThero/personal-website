@@ -1,19 +1,35 @@
 .container {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
 }
 
-/* @media (min-width: 768px) {
+.heading {
+    margin: 1rem;
+}
+
+.text_container {
+    margin: 1rem;
+}
+
+.pill_container {
+    display: flex;
+}
+
+.list>li {
+    margin-left: 1rem;
+}
+
+@media (min-width: 768px) {
 
     .container {
-        flex-direction: row;
+        padding: 2rem;
+        /* flex-direction: row;
         align-items: stretch;
-        margin: 2rem 1rem;
+        margin: 2rem 1rem; */
     }   
 
-    .container>* {
+    /* .container>* {
         flex: 1 0 calc(50% - 2rem);
-    }    
+    }     */
     
-} */
+}

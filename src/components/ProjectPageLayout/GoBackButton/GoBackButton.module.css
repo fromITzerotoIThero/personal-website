@@ -18,12 +18,12 @@
 
 @media (min-width: 1600px) {
     .container {
-        margin-left: 8%;
+        margin-right: 8%;
     }
 }
 
 @media (min-width: 2048px) {
     .container {
-        margin-left: 16%;
+        margin-right: 16%;
     }
 } 
