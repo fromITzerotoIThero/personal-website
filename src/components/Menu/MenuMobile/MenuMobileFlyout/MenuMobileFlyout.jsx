@@ -47,10 +47,10 @@ function MenuMobileFlyout({ onCloseHandler, active }) {
                     <ul className={styles.submenu}>
                         <MenuMobileItem
                             itemName="IBOS"
-                            linkTarget="/#portfolio"
+                            linkTarget="/portfolio/ibos"
                             onMenuItemClick={onCloseHandler}
                         />
-                        <MenuMobileItem
+                        {/* <MenuMobileItem
                             itemName="Anex"
                             linkTarget="/#portfolio"
                             onMenuItemClick={onCloseHandler}
@@ -59,7 +59,7 @@ function MenuMobileFlyout({ onCloseHandler, active }) {
                             itemName="ProMa"
                             linkTarget="/#portfolio"
                             onMenuItemClick={onCloseHandler}
-                        />
+                        /> */}
                     </ul>
                     <MenuMobileItem
                         itemName="Contact"
