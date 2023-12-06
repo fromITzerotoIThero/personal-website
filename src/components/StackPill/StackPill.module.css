@@ -10,10 +10,19 @@
     border-radius: 1rem;
     opacity: 0.6;
     transition: opacity 0.3s ease;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    transition: all 0.1s;
 }
 
 .container:hover  {
     opacity: 1;
+    transform: scale(1.05);
+}
+
+.container:active  {
+    transform: scale(0.95);
 }
 
 .logo {
