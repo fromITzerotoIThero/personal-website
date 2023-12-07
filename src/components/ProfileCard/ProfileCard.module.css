@@ -8,10 +8,6 @@
     transition: background-color 0.3s ease;
 }
 
-.container:hover {
-    background-color: #141414;
-}
-
 .navigation_trick_element {
     position: absolute;
     top: -60px;
@@ -25,15 +21,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-}
-
-.image {
-    opacity: 0.4;
-    transition: opacity 0.5s;
-}
-
-.image:hover {
-    opacity: 1;
 }
 
 @media (min-width: 768px) {
