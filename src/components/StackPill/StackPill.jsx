@@ -26,13 +26,13 @@ function StackPill({ logoComponent, logoLabel, isInProgress }) {
         setCount(count + 1);
     }
     return (
-        <button className={styles.container} onClick={addTech}>
+        <button className={styles.container} onClick={addTech} title={count > 0 ? `${count} loved this` : ''}>
             {isInProgress &&
                 <div className={styles.progress_band}>WIP</div>
             }
 
             <div className={styles.logo}>{logoComponent}</div>
-            <p className={styles.label}>{logoLabel}{count > 0 ? ` (${count})` : ''}</p>
+            <p className={styles.label}>{logoLabel}</p>
             { [...Array(hearts)].map(heart => <HeartAnimation></HeartAnimation>) }
             
         </button>
