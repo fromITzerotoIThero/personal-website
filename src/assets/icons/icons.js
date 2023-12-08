@@ -13,4 +13,5 @@ export { ReactComponent as CloseButton } from './close-button-icon.svg';
 export { ReactComponent as HomePageIcon } from './home-page-icon.svg';
 export { ReactComponent as WebsiteIcon } from './website-icon.svg';
 export { ReactComponent as ArrowBackIcon } from './arrow-back-icon.svg'; 
-export {ReactComponent as ArrowBackLargeIcon} from './arrow-back-large-icon.svg';
+export { ReactComponent as ArrowBackLargeIcon } from './arrow-back-large-icon.svg';
+export { ReactComponent as InfoCircleIcon } from './info-circle-icon.svg';

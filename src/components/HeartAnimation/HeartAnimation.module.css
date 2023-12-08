@@ -1,0 +1,23 @@
+.heart {
+    animation: smooth 1s linear forwards;
+    z-index: 1;
+    transition: transform 0.5s ease;
+    position: absolute;
+    bottom: 0;
+}
+
+@keyframes smooth {
+  0.0000%   { transform: translate(calc(var(--randomX) * 0.0px   ), calc(var(--randomY) * 0.0px   ) ); opacity: 0 ; }
+  7.9850%   { transform: translate(calc(var(--randomX) * 8.2px   ), calc(var(--randomY) * -12.0px ) ); opacity: 1 ; }
+  14.0885%  { transform: translate(calc(var(--randomX) * 12.3px  ), calc(var(--randomY) * -22.4px ) ) ; }
+  19.5951%  { transform: translate(calc(var(--randomX) * 12.7px  ), calc(var(--randomY) * -32.4px ) ) ; }
+  24.0990%  { transform: translate(calc(var(--randomX) * 10.1px  ), calc(var(--randomY) * -40.2px ) ) ; }
+  28.7394%  { transform: translate(calc(var(--randomX) * 5.4px   ), calc(var(--randomY) * -47.2px ) ) ; }
+  49.3429%  { transform: translate(calc(var(--randomX) * -21.5px ), calc(var(--randomY) * -73.4px ) ) ; }
+  54.4444%  { transform: translate(calc(var(--randomX) * -26.9px ), calc(var(--randomY) * -80.9px ) ) ; }
+  59.5139%  { transform: translate(calc(var(--randomX) * -30.6px ), calc(var(--randomY) * -89.4px ) ) ; }
+  64.8965%  { transform: translate(calc(var(--randomX) * -31.8px ), calc(var(--randomY) * -99.2px ) ) ; }
+  73.8720%  { transform: translate(calc(var(--randomX) * -28.2px ), calc(var(--randomY) * -115.1px) ) ; }
+  87.6041%  { transform: translate(calc(var(--randomX) * -15.5px ), calc(var(--randomY) * -136.7px) ); opacity: 1 ; }
+  100.0000% { transform: translate(calc(var(--randomX) * -1.0px  ), calc(var(--randomY) * -154.0px) ); opacity: 0 ; }
+}

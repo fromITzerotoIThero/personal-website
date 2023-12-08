@@ -32,6 +32,7 @@ function ProfileCardsSection() {
             <ProfileCard
                 cardId="stack"
                 heading="Stack"
+                tooltip="Please help me judge the value of the technologies in my tech stack by clicking on them and showing some love"
                 content={
                     <StackPillsCard />
                 }
