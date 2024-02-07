@@ -29,7 +29,7 @@ function ContactSection() {
                     contactInformation="mpanek.uni@gmail.com"
                 />
                 <ContactPill
-                    href="/assets/cv-en-gosia-panek-07-12-23.pdf"
+                    href="/assets/gosia-panek-cv-en.pdf"
                     ariaLabel="Download resume"
                     iconComponent={<DownloadIcon />}
                     contactInformation="Download CV"
