@@ -1,7 +1,9 @@
 import React from 'react';
 import { useRouteError } from 'react-router-dom';
+import { NavHashLink } from 'react-router-hash-link';
 import styles from './ErrorPage.module.css';
 import { BeeLogo } from '../../assets/logos/logos';
+import { HomePageIcon } from '../../assets/icons/icons';
 
 function ErrorPage() {
     const error = useRouteError();
@@ -9,18 +11,20 @@ function ErrorPage() {
 
     return (
         <div className={styles.container}>
-            <h1 className={styles.heading}>Oh no! Something went wrong!</h1>
+            <h2 className={styles.heading}>Oh no!<br />Something went wrong!</h2>
             <div className={styles.content_container}>
                 <div className={styles.image_container}><BeeLogo /></div>
                 <div className={styles.text}>
-                    <h3>{`${error.status} - ${error.statusText}` || error.message}</h3>
-                    <div>Sorry for the inconvenience!</div>
-                    {/* <div>In the meantime, you can try the following:</div>
-                    <ul>
-                        <li>Refresh the page and see if the issue resolves.</li>
-                        <li>Check your internet connection.</li>
-                        <li>Clear your browser's cache and cookies.</li>
-                    </ul> */}
+                    {error && 
+                        <h4>{`${error?.status} - ${error?.statusText}` || error?.message}</h4>
+                    }
+                    <h4>Sorry for the inconvenience!</h4>
+                    <div>Go back to homepage:</div>
+                    <NavHashLink to="/#home">
+                        <button className={styles.button}>                           
+                            <HomePageIcon />                        
+                        </button>
+                    </NavHashLink>
                 </div>
             </div>
         </div>
